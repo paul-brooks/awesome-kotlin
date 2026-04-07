@@ -270,6 +270,11 @@ category("Libraries/Frameworks") {
       setTags("test", "assert", "bdd")
     }
     link {
+      github = "kensa-dev/kensa"
+      desc = "A code-first BDD testing framework for Kotlin, with rich interactive reports and sequence diagrams."
+      setTags("test", "bdd", "junit", "kotest", "testng", "hamkrest")
+    }
+    link {
       github = "kotest/kotest"
       desc = "Formerly known as KotlinTest, Kotest is a flexible and comprehensive testing tool that is multiplatform enabled."
       setTags("test", "bdd", "matchers")
